@@ -1,0 +1,333 @@
+       videoid           uploader  ...  category_UNA  row_number
+0  gFa1YMEJFag            sxephil  ...             0           0
+1  pSJ4hv28zaI  thecomputernerd01  ...             0           1
+2  uHVEDq6RVXc    barelypolitical  ...             0           2
+3  K7Om0QZy-38          SouljaBoy  ...             0           3
+4  DCAO6bZa31o    AssociatedPress  ...             0           4
+
+[5 rows x 45 columns]
+(1000, 21)
+(1000, 1000)
+preprocessing...
+generating test/val sets...
+creating false test edges...
+creating false val edges...
+creating false train edges...
+final checks for disjointness...
+creating adj_train...
+Done with train-test split!
+
+Total nodes: 1000
+Total edges: 2563
+Training edges (positive): 1539
+Training edges (negative): 1539
+Validation edges (positive): 256
+Validation edges (negative): 256
+Test edges (positive): 768
+Test edges (negative): 768
+Creating GAE optimizer...
+Labels shape:  (?,)
+Preds shape:  (1000000,)
+CE+KL loss shape:  ()
+Epoch: 0001 Number of Sub Epochs: 0274 train_loss= 30004052.82022 train_acc= 0.35828 val_roc= 0.65469 val_ap= 0.59694 time= 33.80215
+Epoch: 0002 Number of Sub Epochs: 0269 train_loss= 1909592.34232 train_acc= 0.37568 val_roc= 0.68004 val_ap= 0.62309 time= 32.30374
+Epoch: 0003 Number of Sub Epochs: 0277 train_loss= 42493.26654 train_acc= 0.41719 val_roc= 0.74922 val_ap= 0.71882 time= 33.58310
+Epoch: 0004 Number of Sub Epochs: 0285 train_loss= 250.14391 train_acc= 0.46785 val_roc= 0.76336 val_ap= 0.77657 time= 34.00340
+Epoch: 0005 Number of Sub Epochs: 0273 train_loss= 6.30476 train_acc= 0.49318 val_roc= 0.76704 val_ap= 0.78879 time= 32.22254
+Epoch: 0006 Number of Sub Epochs: 0279 train_loss= 6.05273 train_acc= 0.49448 val_roc= 0.76582 val_ap= 0.78724 time= 43.44912
+Epoch: 0007 Number of Sub Epochs: 0276 train_loss= 16.73271 train_acc= 0.48668 val_roc= 0.76029 val_ap= 0.75191 time= 41.37481
+Epoch: 0008 Number of Sub Epochs: 0274 train_loss= 96.90318 train_acc= 0.47340 val_roc= 0.74454 val_ap= 0.71049 time= 41.52446
+Epoch: 0009 Number of Sub Epochs: 0275 train_loss= 6232.02505 train_acc= 0.44864 val_roc= 0.69035 val_ap= 0.63965 time= 40.75595
+Epoch: 0010 Number of Sub Epochs: 0269 train_loss= 945369.00729 train_acc= 0.38250 val_roc= 0.66991 val_ap= 0.61574 time= 42.74820
+Epoch: 0011 Number of Sub Epochs: 0266 train_loss= 1371001.08525 train_acc= 0.37574 val_roc= 0.63490 val_ap= 0.58293 time= 42.41245
+Epoch: 0012 Number of Sub Epochs: 0279 train_loss= 865446.20736 train_acc= 0.37555 val_roc= 0.68658 val_ap= 0.62968 time= 42.72407
+Epoch: 0013 Number of Sub Epochs: 0280 train_loss= 1220907.28931 train_acc= 0.37574 val_roc= 0.65587 val_ap= 0.59983 time= 43.80696
+Epoch: 0014 Number of Sub Epochs: 0270 train_loss= 1118928.22970 train_acc= 0.38456 val_roc= 0.66672 val_ap= 0.61305 time= 41.52753
+Epoch: 0015 Number of Sub Epochs: 0281 train_loss= 381054.00815 train_acc= 0.38278 val_roc= 0.64623 val_ap= 0.60539 time= 43.83710
+Epoch: 0016 Number of Sub Epochs: 0273 train_loss= 825416.24334 train_acc= 0.37279 val_roc= 0.64467 val_ap= 0.58974 time= 41.85855
+Epoch: 0017 Number of Sub Epochs: 0266 train_loss= 508874.38945 train_acc= 0.38222 val_roc= 0.64890 val_ap= 0.59311 time= 41.68579
+Epoch: 0018 Number of Sub Epochs: 0281 train_loss= 1976424.71431 train_acc= 0.36815 val_roc= 0.66032 val_ap= 0.60370 time= 43.46176
+Epoch: 0019 Number of Sub Epochs: 0283 train_loss= 2309592.07951 train_acc= 0.36462 val_roc= 0.64814 val_ap= 0.59260 time= 43.56022
+Epoch: 0020 Number of Sub Epochs: 0268 train_loss= 1020727.17649 train_acc= 0.37861 val_roc= 0.66179 val_ap= 0.60649 time= 41.79631
+Epoch: 0021 Number of Sub Epochs: 0279 train_loss= 871781.27927 train_acc= 0.37898 val_roc= 0.68771 val_ap= 0.62633 time= 43.46212
+Epoch: 0022 Number of Sub Epochs: 0276 train_loss= 538191.27979 train_acc= 0.38682 val_roc= 0.69164 val_ap= 0.63479 time= 43.05479
+Epoch: 0023 Number of Sub Epochs: 0276 train_loss= 1395010.28750 train_acc= 0.37482 val_roc= 0.62553 val_ap= 0.57510 time= 42.66415
+Epoch: 0024 Number of Sub Epochs: 0271 train_loss= 2004994.78437 train_acc= 0.37843 val_roc= 0.68502 val_ap= 0.62523 time= 42.19820
+Epoch: 0025 Number of Sub Epochs: 0280 train_loss= 279373.26321 train_acc= 0.38396 val_roc= 0.67802 val_ap= 0.62215 time= 43.98988
+Epoch: 0026 Number of Sub Epochs: 0260 train_loss= 386168.11406 train_acc= 0.38250 val_roc= 0.68476 val_ap= 0.63168 time= 40.61704
+Epoch: 0027 Number of Sub Epochs: 0279 train_loss= 1068591.17537 train_acc= 0.37828 val_roc= 0.68623 val_ap= 0.64000 time= 44.02794
+Epoch: 0028 Number of Sub Epochs: 0271 train_loss= 431483.78251 train_acc= 0.38110 val_roc= 0.69778 val_ap= 0.64349 time= 42.17687
+Epoch: 0029 Number of Sub Epochs: 0273 train_loss= 808380.36081 train_acc= 0.38262 val_roc= 0.62868 val_ap= 0.58120 time= 43.21449
+Epoch: 0030 Number of Sub Epochs: 0283 train_loss= 1448449.96029 train_acc= 0.36895 val_roc= 0.64326 val_ap= 0.58848 time= 42.38492
+Epoch: 0031 Number of Sub Epochs: 0277 train_loss= 1033035.30055 train_acc= 0.37048 val_roc= 0.65894 val_ap= 0.60168 time= 41.47745
+Epoch: 0032 Number of Sub Epochs: 0278 train_loss= 571011.09492 train_acc= 0.37607 val_roc= 0.64352 val_ap= 0.58905 time= 41.65887
+Epoch: 0033 Number of Sub Epochs: 0285 train_loss= 1396070.35782 train_acc= 0.36803 val_roc= 0.63908 val_ap= 0.58573 time= 42.43739
+Epoch: 0034 Number of Sub Epochs: 0265 train_loss= 1058484.55301 train_acc= 0.38040 val_roc= 0.65555 val_ap= 0.60412 time= 39.96423
+Epoch: 0035 Number of Sub Epochs: 0272 train_loss= 798551.58795 train_acc= 0.38360 val_roc= 0.64177 val_ap= 0.58905 time= 44.46897
+Epoch: 0036 Number of Sub Epochs: 0274 train_loss= 474791.98513 train_acc= 0.37612 val_roc= 0.67219 val_ap= 0.61608 time= 41.20322
+Epoch: 0037 Number of Sub Epochs: 0267 train_loss= 1344568.80011 train_acc= 0.36841 val_roc= 0.63589 val_ap= 0.58415 time= 40.68322
+Epoch: 0038 Number of Sub Epochs: 0271 train_loss= 874888.23637 train_acc= 0.37748 val_roc= 0.65681 val_ap= 0.60103 time= 41.64386
+Epoch: 0039 Number of Sub Epochs: 0269 train_loss= 1049361.68004 train_acc= 0.36940 val_roc= 0.63986 val_ap= 0.58757 time= 40.84584
+Epoch: 0040 Number of Sub Epochs: 0276 train_loss= 1235027.87721 train_acc= 0.37464 val_roc= 0.63618 val_ap= 0.58397 time= 32.87715
+Epoch: 0041 Number of Sub Epochs: 0275 train_loss= 2345268.65714 train_acc= 0.37328 val_roc= 0.67412 val_ap= 0.61413 time= 31.33413
+Epoch: 0042 Number of Sub Epochs: 0277 train_loss= 873506.84140 train_acc= 0.38081 val_roc= 0.65376 val_ap= 0.60040 time= 31.66338
+Epoch: 0043 Number of Sub Epochs: 0277 train_loss= 247725.68713 train_acc= 0.38571 val_roc= 0.76926 val_ap= 0.71836 time= 31.82772
+Epoch: 0044 Number of Sub Epochs: 0278 train_loss= 167747.03038 train_acc= 0.39195 val_roc= 0.68893 val_ap= 0.63502 time= 33.62924
+Epoch: 0045 Number of Sub Epochs: 0287 train_loss= 722341.63067 train_acc= 0.38556 val_roc= 0.65265 val_ap= 0.59541 time= 45.43517
+Epoch: 0046 Number of Sub Epochs: 0269 train_loss= 3309682.55301 train_acc= 0.37740 val_roc= 0.64145 val_ap= 0.58760 time= 37.96174
+Epoch: 0047 Number of Sub Epochs: 0266 train_loss= 2196745.09501 train_acc= 0.37438 val_roc= 0.72633 val_ap= 0.67213 time= 36.54600
+Epoch: 0048 Number of Sub Epochs: 0274 train_loss= 406422.95342 train_acc= 0.38572 val_roc= 0.66503 val_ap= 0.62125 time= 32.64418
+Epoch: 0049 Number of Sub Epochs: 0263 train_loss= 35466.95421 train_acc= 0.41130 val_roc= 0.73853 val_ap= 0.68972 time= 32.20353
+Epoch: 0050 Number of Sub Epochs: 0268 train_loss= 53723.35758 train_acc= 0.40211 val_roc= 0.66236 val_ap= 0.60760 time= 33.22482
+Epoch: 0051 Number of Sub Epochs: 0272 train_loss= 282197.93875 train_acc= 0.39211 val_roc= 0.66563 val_ap= 0.60867 time= 35.05686
+Epoch: 0052 Number of Sub Epochs: 0275 train_loss= 2255546.32049 train_acc= 0.37204 val_roc= 0.63438 val_ap= 0.58238 time= 35.12727
+Epoch: 0053 Number of Sub Epochs: 0271 train_loss= 1003794.36331 train_acc= 0.37791 val_roc= 0.67290 val_ap= 0.61525 time= 34.97371
+Epoch: 0054 Number of Sub Epochs: 0275 train_loss= 901152.90190 train_acc= 0.38412 val_roc= 0.66676 val_ap= 0.61181 time= 35.58182
+Epoch: 0055 Number of Sub Epochs: 0276 train_loss= 1753395.33938 train_acc= 0.36957 val_roc= 0.64217 val_ap= 0.58801 time= 35.49797
+Epoch: 0056 Number of Sub Epochs: 0273 train_loss= 1340927.65704 train_acc= 0.37662 val_roc= 0.64557 val_ap= 0.59204 time= 35.80021
+Epoch: 0057 Number of Sub Epochs: 0288 train_loss= 598941.12097 train_acc= 0.37899 val_roc= 0.65912 val_ap= 0.60311 time= 37.34280
+Epoch: 0058 Number of Sub Epochs: 0266 train_loss= 317499.81962 train_acc= 0.39109 val_roc= 0.65228 val_ap= 0.59845 time= 35.69219
+Epoch: 0059 Number of Sub Epochs: 0272 train_loss= 420509.21679 train_acc= 0.38202 val_roc= 0.63928 val_ap= 0.58733 time= 35.50207
+Epoch: 0060 Number of Sub Epochs: 0264 train_loss= 769855.73749 train_acc= 0.37410 val_roc= 0.68355 val_ap= 0.63405 time= 31.22217
+Epoch: 0061 Number of Sub Epochs: 0272 train_loss= 1735467.51422 train_acc= 0.37143 val_roc= 0.64230 val_ap= 0.58902 time= 32.25192
+Epoch: 0062 Number of Sub Epochs: 0271 train_loss= 1671690.04607 train_acc= 0.37384 val_roc= 0.65218 val_ap= 0.59530 time= 33.47661
+Epoch: 0063 Number of Sub Epochs: 0280 train_loss= 757311.21291 train_acc= 0.37968 val_roc= 0.68932 val_ap= 0.62827 time= 36.28655
+Epoch: 0064 Number of Sub Epochs: 0268 train_loss= 1904705.05659 train_acc= 0.37074 val_roc= 0.62668 val_ap= 0.57676 time= 44.53306
+Epoch: 0065 Number of Sub Epochs: 0275 train_loss= 669531.27834 train_acc= 0.37899 val_roc= 0.66528 val_ap= 0.60918 time= 38.04746
+Epoch: 0066 Number of Sub Epochs: 0264 train_loss= 455904.92563 train_acc= 0.37708 val_roc= 0.65849 val_ap= 0.60225 time= 35.58532
+Epoch: 0067 Number of Sub Epochs: 0277 train_loss= 379325.44132 train_acc= 0.38019 val_roc= 0.66644 val_ap= 0.61021 time= 37.55745
+Epoch: 0068 Number of Sub Epochs: 0258 train_loss= 849548.08382 train_acc= 0.38173 val_roc= 0.68874 val_ap= 0.62811 time= 35.29072
+Epoch: 0069 Number of Sub Epochs: 0269 train_loss= 1711560.57668 train_acc= 0.37201 val_roc= 0.66040 val_ap= 0.60255 time= 36.62365
+Epoch: 0070 Number of Sub Epochs: 0275 train_loss= 1725848.24914 train_acc= 0.37267 val_roc= 0.65399 val_ap= 0.59896 time= 37.66790
+Epoch: 0071 Number of Sub Epochs: 0277 train_loss= 254832.14582 train_acc= 0.38272 val_roc= 0.66983 val_ap= 0.61707 time= 38.25951
+Epoch: 0072 Number of Sub Epochs: 0272 train_loss= 275117.56505 train_acc= 0.39069 val_roc= 0.68980 val_ap= 0.62905 time= 37.94350
+Epoch: 0073 Number of Sub Epochs: 0277 train_loss= 617461.94277 train_acc= 0.38311 val_roc= 0.65243 val_ap= 0.59691 time= 37.51218
+Epoch: 0074 Number of Sub Epochs: 0273 train_loss= 2492970.21776 train_acc= 0.36602 val_roc= 0.63219 val_ap= 0.58736 time= 35.64327
+Epoch: 0075 Number of Sub Epochs: 0268 train_loss= 1122458.51352 train_acc= 0.37572 val_roc= 0.63791 val_ap= 0.58645 time= 35.65564
+Epoch: 0076 Number of Sub Epochs: 0275 train_loss= 606237.11568 train_acc= 0.37259 val_roc= 0.65633 val_ap= 0.59970 time= 36.11812
+Epoch: 0077 Number of Sub Epochs: 0269 train_loss= 501935.03222 train_acc= 0.37807 val_roc= 0.66950 val_ap= 0.61334 time= 36.20149
+Epoch: 0078 Number of Sub Epochs: 0276 train_loss= 1977598.62860 train_acc= 0.36926 val_roc= 0.71786 val_ap= 0.66394 time= 36.70860
+Epoch: 0079 Number of Sub Epochs: 0277 train_loss= 1109930.88799 train_acc= 0.37619 val_roc= 0.65258 val_ap= 0.59815 time= 37.11453
+Epoch: 0080 Number of Sub Epochs: 0275 train_loss= 364595.43981 train_acc= 0.38124 val_roc= 0.69778 val_ap= 0.63576 time= 36.39951
+Epoch: 0081 Number of Sub Epochs: 0279 train_loss= 933959.26889 train_acc= 0.37902 val_roc= 0.69022 val_ap= 0.63522 time= 36.96437
+Epoch: 0082 Number of Sub Epochs: 0280 train_loss= 1731876.01730 train_acc= 0.36923 val_roc= 0.64959 val_ap= 0.59863 time= 36.47524
+Epoch: 0083 Number of Sub Epochs: 0286 train_loss= 1351107.10483 train_acc= 0.37587 val_roc= 0.66582 val_ap= 0.60780 time= 37.32917
+Epoch: 0084 Number of Sub Epochs: 0274 train_loss= 538976.13980 train_acc= 0.37933 val_roc= 0.70068 val_ap= 0.63848 time= 36.21447
+Epoch: 0085 Number of Sub Epochs: 0273 train_loss= 149422.42406 train_acc= 0.39183 val_roc= 0.68501 val_ap= 0.62745 time= 35.60635
+Epoch: 0086 Number of Sub Epochs: 0279 train_loss= 498443.73964 train_acc= 0.38142 val_roc= 0.66397 val_ap= 0.60589 time= 36.82438
+Epoch: 0087 Number of Sub Epochs: 0270 train_loss= 1990475.00155 train_acc= 0.36830 val_roc= 0.65164 val_ap= 0.59460 time= 35.64859
+Epoch: 0088 Number of Sub Epochs: 0271 train_loss= 1287509.64569 train_acc= 0.36499 val_roc= 0.63730 val_ap= 0.58488 time= 35.67704
+Epoch: 0089 Number of Sub Epochs: 0262 train_loss= 1542525.46602 train_acc= 0.36744 val_roc= 0.65121 val_ap= 0.59597 time= 34.42052
+Epoch: 0090 Number of Sub Epochs: 0285 train_loss= 674137.16478 train_acc= 0.37629 val_roc= 0.66837 val_ap= 0.61091 time= 37.16247
+Epoch: 0091 Number of Sub Epochs: 0274 train_loss= 687289.88939 train_acc= 0.37493 val_roc= 0.65366 val_ap= 0.59848 time= 36.04506
+Epoch: 0092 Number of Sub Epochs: 0286 train_loss= 1166075.58854 train_acc= 0.37795 val_roc= 0.63475 val_ap= 0.58394 time= 37.58867
+Epoch: 0093 Number of Sub Epochs: 0275 train_loss= 612480.89766 train_acc= 0.37793 val_roc= 0.70140 val_ap= 0.64031 time= 36.10567
+Epoch: 0094 Number of Sub Epochs: 0280 train_loss= 531719.68828 train_acc= 0.38084 val_roc= 0.63582 val_ap= 0.58485 time= 37.46634
+Epoch: 0095 Number of Sub Epochs: 0268 train_loss= 1415386.85076 train_acc= 0.37652 val_roc= 0.66394 val_ap= 0.61173 time= 35.19236
+Epoch: 0096 Number of Sub Epochs: 0276 train_loss= 1201989.46361 train_acc= 0.37373 val_roc= 0.64959 val_ap= 0.59536 time= 60.51224
+Epoch: 0097 Number of Sub Epochs: 0272 train_loss= 1167582.49925 train_acc= 0.37107 val_roc= 0.65979 val_ap= 0.60294 time= 71.61700
+Epoch: 0098 Number of Sub Epochs: 0272 train_loss= 361915.59701 train_acc= 0.38412 val_roc= 0.68303 val_ap= 0.62433 time= 62.96935
+Epoch: 0099 Number of Sub Epochs: 0271 train_loss= 373884.89025 train_acc= 0.38129 val_roc= 0.66747 val_ap= 0.61019 time= 43.57948
+Epoch: 0100 Number of Sub Epochs: 0285 train_loss= 1291585.14959 train_acc= 0.36150 val_roc= 0.63871 val_ap= 0.58706 time= 61.51245
+Epoch: 0101 Number of Sub Epochs: 0279 train_loss= 1978954.79576 train_acc= 0.36886 val_roc= 0.65891 val_ap= 0.60257 time= 48.58886
+Epoch: 0102 Number of Sub Epochs: 0275 train_loss= 1115808.39779 train_acc= 0.36469 val_roc= 0.67213 val_ap= 0.61266 time= 46.55281
+Epoch: 0103 Number of Sub Epochs: 0268 train_loss= 494812.68025 train_acc= 0.37381 val_roc= 0.67511 val_ap= 0.61569 time= 44.47351
+Epoch: 0104 Number of Sub Epochs: 0278 train_loss= 476911.93191 train_acc= 0.37458 val_roc= 0.64916 val_ap= 0.59346 time= 45.67645
+Epoch: 0105 Number of Sub Epochs: 0278 train_loss= 900950.37444 train_acc= 0.37001 val_roc= 0.67346 val_ap= 0.61468 time= 44.13602
+Epoch: 0106 Number of Sub Epochs: 0273 train_loss= 584691.63761 train_acc= 0.37162 val_roc= 0.65529 val_ap= 0.60052 time= 42.72522
+Epoch: 0107 Number of Sub Epochs: 0272 train_loss= 1135345.26053 train_acc= 0.37395 val_roc= 0.64482 val_ap= 0.59063 time= 42.33471
+Epoch: 0108 Number of Sub Epochs: 0259 train_loss= 2279609.93584 train_acc= 0.36629 val_roc= 0.63013 val_ap= 0.57940 time= 38.16115
+Epoch: 0109 Number of Sub Epochs: 0269 train_loss= 2028689.01689 train_acc= 0.36372 val_roc= 0.66635 val_ap= 0.62669 time= 44.19736
+Epoch: 0110 Number of Sub Epochs: 0280 train_loss= 483715.08186 train_acc= 0.38057 val_roc= 0.67989 val_ap= 0.62394 time= 52.13703
+Epoch: 0111 Number of Sub Epochs: 0268 train_loss= 611928.91335 train_acc= 0.37722 val_roc= 0.69795 val_ap= 0.63847 time= 54.14163
+Epoch: 0112 Number of Sub Epochs: 0279 train_loss= 462049.39402 train_acc= 0.37612 val_roc= 0.67084 val_ap= 0.61305 time= 54.62177
+Epoch: 0113 Number of Sub Epochs: 0262 train_loss= 337312.45868 train_acc= 0.38745 val_roc= 0.63545 val_ap= 0.58473 time= 47.73239
+Epoch: 0114 Number of Sub Epochs: 0277 train_loss= 2059170.41510 train_acc= 0.36880 val_roc= 0.64906 val_ap= 0.59736 time= 49.21264
+Epoch: 0115 Number of Sub Epochs: 0279 train_loss= 1641642.33751 train_acc= 0.36559 val_roc= 0.63572 val_ap= 0.58287 time= 49.28930
+Epoch: 0116 Number of Sub Epochs: 0273 train_loss= 538562.78923 train_acc= 0.38139 val_roc= 0.68100 val_ap= 0.62414 time= 59.80341
+Epoch: 0117 Number of Sub Epochs: 0273 train_loss= 1292898.44434 train_acc= 0.36650 val_roc= 0.67262 val_ap= 0.61252 time= 52.73130
+Epoch: 0118 Number of Sub Epochs: 0283 train_loss= 848730.99721 train_acc= 0.37297 val_roc= 0.66775 val_ap= 0.61644 time= 55.55259
+Epoch: 0119 Number of Sub Epochs: 0272 train_loss= 773537.88503 train_acc= 0.37017 val_roc= 0.68341 val_ap= 0.62332 time= 53.26002
+Epoch: 0120 Number of Sub Epochs: 0270 train_loss= 365487.69976 train_acc= 0.37877 val_roc= 0.65247 val_ap= 0.59719 time= 66.12996
+Epoch: 0121 Number of Sub Epochs: 0270 train_loss= 1124065.46359 train_acc= 0.36779 val_roc= 0.66676 val_ap= 0.60924 time= 82.91292
+Epoch: 0122 Number of Sub Epochs: 0261 train_loss= 2615544.56228 train_acc= 0.36082 val_roc= 0.69389 val_ap= 0.63616 time= 67.08530
+Epoch: 0123 Number of Sub Epochs: 0279 train_loss= 2271320.32294 train_acc= 0.36920 val_roc= 0.63886 val_ap= 0.58970 time= 60.05035
+Epoch: 0124 Number of Sub Epochs: 0283 train_loss= 511903.20840 train_acc= 0.38527 val_roc= 0.68842 val_ap= 0.63255 time= 70.36150
+Epoch: 0125 Number of Sub Epochs: 0271 train_loss= 86800.18083 train_acc= 0.39238 val_roc= 0.67905 val_ap= 0.62346 time= 62.88556
+Epoch: 0126 Number of Sub Epochs: 0263 train_loss= 284062.47619 train_acc= 0.38346 val_roc= 0.65991 val_ap= 0.60398 time= 61.29012
+Epoch: 0127 Number of Sub Epochs: 0290 train_loss= 631321.65403 train_acc= 0.37439 val_roc= 0.64708 val_ap= 0.59142 time= 63.36510
+Epoch: 0128 Number of Sub Epochs: 0264 train_loss= 2080796.43426 train_acc= 0.37101 val_roc= 0.67341 val_ap= 0.61241 time= 58.84067
+Epoch: 0129 Number of Sub Epochs: 0275 train_loss= 968828.64081 train_acc= 0.37233 val_roc= 0.64391 val_ap= 0.59149 time= 72.06358
+Epoch: 0130 Number of Sub Epochs: 0279 train_loss= 1268576.46394 train_acc= 0.37727 val_roc= 0.66125 val_ap= 0.60471 time= 58.51403
+Epoch: 0131 Number of Sub Epochs: 0277 train_loss= 807543.96978 train_acc= 0.37651 val_roc= 0.66054 val_ap= 0.60634 time= 93.31829
+Epoch: 0132 Number of Sub Epochs: 0269 train_loss= 159815.84592 train_acc= 0.38705 val_roc= 0.68139 val_ap= 0.62636 time= 66.65970
+Epoch: 0133 Number of Sub Epochs: 0273 train_loss= 248582.14551 train_acc= 0.38557 val_roc= 0.66785 val_ap= 0.60843 time= 52.39676
+Epoch: 0134 Number of Sub Epochs: 0270 train_loss= 2341172.17498 train_acc= 0.36532 val_roc= 0.62990 val_ap= 0.57844 time= 47.24079
+Epoch: 0135 Number of Sub Epochs: 0281 train_loss= 2237901.30554 train_acc= 0.36228 val_roc= 0.67393 val_ap= 0.61653 time= 50.15236
+Epoch: 0136 Number of Sub Epochs: 0272 train_loss= 660996.80416 train_acc= 0.37290 val_roc= 0.66314 val_ap= 0.60950 time= 47.59539
+Epoch: 0137 Number of Sub Epochs: 0279 train_loss= 150125.42068 train_acc= 0.38648 val_roc= 0.67652 val_ap= 0.62222 time= 49.00737
+Epoch: 0138 Number of Sub Epochs: 0277 train_loss= 152488.49873 train_acc= 0.39119 val_roc= 0.67156 val_ap= 0.61373 time= 50.37157
+Epoch: 0139 Number of Sub Epochs: 0274 train_loss= 608202.91778 train_acc= 0.37586 val_roc= 0.68531 val_ap= 0.62905 time= 38.05279
+Epoch: 0140 Number of Sub Epochs: 0262 train_loss= 2518492.36403 train_acc= 0.36607 val_roc= 0.63731 val_ap= 0.58458 time= 36.07809
+Epoch: 0141 Number of Sub Epochs: 0269 train_loss= 2149119.60528 train_acc= 0.36907 val_roc= 0.66449 val_ap= 0.60534 time= 36.60627
+Epoch: 0142 Number of Sub Epochs: 0281 train_loss= 608355.00835 train_acc= 0.37363 val_roc= 0.67340 val_ap= 0.62273 time= 38.19901
+Epoch: 0143 Number of Sub Epochs: 0276 train_loss= 731425.10932 train_acc= 0.37472 val_roc= 0.69990 val_ap= 0.64106 time= 35.55241
+Epoch: 0144 Number of Sub Epochs: 0274 train_loss= 331702.22449 train_acc= 0.38576 val_roc= 0.67773 val_ap= 0.62457 time= 35.79596
+Epoch: 0145 Number of Sub Epochs: 0270 train_loss= 1109156.35181 train_acc= 0.36820 val_roc= 0.64140 val_ap= 0.58786 time= 36.00146
+Epoch: 0146 Number of Sub Epochs: 0266 train_loss= 2254526.61350 train_acc= 0.37092 val_roc= 0.67242 val_ap= 0.61723 time= 34.05213
+Epoch: 0147 Number of Sub Epochs: 0276 train_loss= 596221.35905 train_acc= 0.37883 val_roc= 0.68357 val_ap= 0.62880 time= 35.89019
+Epoch: 0148 Number of Sub Epochs: 0278 train_loss= 578180.40619 train_acc= 0.37401 val_roc= 0.68262 val_ap= 0.62306 time= 36.08745
+Epoch: 0149 Number of Sub Epochs: 0283 train_loss= 641409.63245 train_acc= 0.37897 val_roc= 0.64200 val_ap= 0.58881 time= 36.41098
+Epoch: 0150 Number of Sub Epochs: 0262 train_loss= 1857016.96253 train_acc= 0.36791 val_roc= 0.64000 val_ap= 0.59497 time= 31.49165
+Epoch: 0151 Number of Sub Epochs: 0271 train_loss= 761669.69440 train_acc= 0.38395 val_roc= 0.66301 val_ap= 0.60720 time= 32.08972
+Epoch: 0152 Number of Sub Epochs: 0293 train_loss= 309334.27541 train_acc= 0.38190 val_roc= 0.67348 val_ap= 0.61599 time= 35.38280
+Epoch: 0153 Number of Sub Epochs: 0276 train_loss= 379338.94903 train_acc= 0.37801 val_roc= 0.70975 val_ap= 0.66035 time= 33.59367
+Epoch: 0154 Number of Sub Epochs: 0265 train_loss= 1421359.49431 train_acc= 0.36836 val_roc= 0.64450 val_ap= 0.59081 time= 32.27370
+Epoch: 0155 Number of Sub Epochs: 0279 train_loss= 2067176.04572 train_acc= 0.36865 val_roc= 0.63889 val_ap= 0.58734 time= 33.79118
+Epoch: 0156 Number of Sub Epochs: 0271 train_loss= 989683.00192 train_acc= 0.36917 val_roc= 0.67578 val_ap= 0.61791 time= 32.66508
+Epoch: 0157 Number of Sub Epochs: 0272 train_loss= 333588.08216 train_acc= 0.38468 val_roc= 0.64368 val_ap= 0.59136 time= 32.90822
+Epoch: 0158 Number of Sub Epochs: 0270 train_loss= 635141.14851 train_acc= 0.37974 val_roc= 0.64159 val_ap= 0.58731 time= 32.75762
+Epoch: 0159 Number of Sub Epochs: 0277 train_loss= 3394235.63505 train_acc= 0.37327 val_roc= 0.66373 val_ap= 0.60687 time= 33.24248
+Epoch: 0160 Number of Sub Epochs: 0269 train_loss= 779603.32685 train_acc= 0.38262 val_roc= 0.68591 val_ap= 0.62941 time= 32.48903
+Epoch: 0161 Number of Sub Epochs: 0273 train_loss= 59058.77187 train_acc= 0.39488 val_roc= 0.69832 val_ap= 0.64089 time= 33.23878
+Epoch: 0162 Number of Sub Epochs: 0277 train_loss= 275109.42908 train_acc= 0.39012 val_roc= 0.67873 val_ap= 0.61943 time= 33.29601
+Epoch: 0163 Number of Sub Epochs: 0267 train_loss= 276218.17539 train_acc= 0.38820 val_roc= 0.67871 val_ap= 0.63609 time= 31.29504
+Epoch: 0164 Number of Sub Epochs: 0276 train_loss= 587029.37283 train_acc= 0.37672 val_roc= 0.66599 val_ap= 0.60790 time= 31.55271
+Epoch: 0165 Number of Sub Epochs: 0273 train_loss= 2801978.88210 train_acc= 0.36760 val_roc= 0.65427 val_ap= 0.59747 time= 36.78086
+Epoch: 0166 Number of Sub Epochs: 0272 train_loss= 3174821.99796 train_acc= 0.36570 val_roc= 0.63493 val_ap= 0.58411 time= 38.19909
+Epoch: 0167 Number of Sub Epochs: 0279 train_loss= 515174.26191 train_acc= 0.38038 val_roc= 0.71648 val_ap= 0.65434 time= 46.14760
+Epoch: 0168 Number of Sub Epochs: 0270 train_loss= 131458.99611 train_acc= 0.39073 val_roc= 0.70196 val_ap= 0.64731 time= 34.46469
+Epoch: 0169 Number of Sub Epochs: 0278 train_loss= 84606.05282 train_acc= 0.39997 val_roc= 0.69160 val_ap= 0.63385 time= 32.88090
+Epoch: 0170 Number of Sub Epochs: 0275 train_loss= 989856.86579 train_acc= 0.38425 val_roc= 0.65102 val_ap= 0.59411 time= 41.96962
+Epoch: 0171 Number of Sub Epochs: 0266 train_loss= 1554345.22503 train_acc= 0.37610 val_roc= 0.68531 val_ap= 0.62526 time= 34.80480
+Epoch: 0172 Number of Sub Epochs: 0272 train_loss= 2434265.03542 train_acc= 0.36833 val_roc= 0.66282 val_ap= 0.60616 time= 40.90934
+Epoch: 0173 Number of Sub Epochs: 0279 train_loss= 352685.13935 train_acc= 0.38474 val_roc= 0.66973 val_ap= 0.61284 time= 36.82442
+Epoch: 0174 Number of Sub Epochs: 0283 train_loss= 386678.18160 train_acc= 0.38576 val_roc= 0.67511 val_ap= 0.61846 time= 42.51052
+Epoch: 0175 Number of Sub Epochs: 0270 train_loss= 1160834.30231 train_acc= 0.36384 val_roc= 0.67702 val_ap= 0.61868 time= 32.24943
+Epoch: 0176 Number of Sub Epochs: 0275 train_loss= 1431892.03461 train_acc= 0.37293 val_roc= 0.66331 val_ap= 0.60588 time= 34.50241
+Epoch: 0177 Number of Sub Epochs: 0281 train_loss= 1116421.07487 train_acc= 0.37125 val_roc= 0.66618 val_ap= 0.60877 time= 35.67860
+Epoch: 0178 Number of Sub Epochs: 0288 train_loss= 824238.02540 train_acc= 0.37743 val_roc= 0.66869 val_ap= 0.61470 time= 33.21277
+Epoch: 0179 Number of Sub Epochs: 0276 train_loss= 238875.95515 train_acc= 0.38264 val_roc= 0.66873 val_ap= 0.61142 time= 32.47227
+Epoch: 0180 Number of Sub Epochs: 0274 train_loss= 328811.79803 train_acc= 0.37940 val_roc= 0.67649 val_ap= 0.61759 time= 39.35205
+Epoch: 0181 Number of Sub Epochs: 0279 train_loss= 1363491.95093 train_acc= 0.37377 val_roc= 0.66365 val_ap= 0.60977 time= 35.74420
+Epoch: 0182 Number of Sub Epochs: 0284 train_loss= 2537232.10726 train_acc= 0.36961 val_roc= 0.65417 val_ap= 0.59689 time= 40.38739
+Epoch: 0183 Number of Sub Epochs: 0262 train_loss= 434575.58301 train_acc= 0.37244 val_roc= 0.68821 val_ap= 0.64226 time= 42.00019
+Epoch: 0184 Number of Sub Epochs: 0283 train_loss= 130424.65597 train_acc= 0.39016 val_roc= 0.67102 val_ap= 0.61489 time= 41.59438
+Epoch: 0185 Number of Sub Epochs: 0270 train_loss= 1305685.72912 train_acc= 0.37652 val_roc= 0.65044 val_ap= 0.59504 time= 45.49398
+Epoch: 0186 Number of Sub Epochs: 0281 train_loss= 723720.22277 train_acc= 0.37230 val_roc= 0.66625 val_ap= 0.62660 time= 45.35528
+Epoch: 0187 Number of Sub Epochs: 0272 train_loss= 1020378.48727 train_acc= 0.37402 val_roc= 0.66387 val_ap= 0.61074 time= 44.80834
+Epoch: 0188 Number of Sub Epochs: 0271 train_loss= 1694354.75645 train_acc= 0.35967 val_roc= 0.64938 val_ap= 0.59587 time= 34.98211
+Epoch: 0189 Number of Sub Epochs: 0274 train_loss= 1067038.96001 train_acc= 0.37047 val_roc= 0.66907 val_ap= 0.61399 time= 35.20089
+Epoch: 0190 Number of Sub Epochs: 0274 train_loss= 895810.74313 train_acc= 0.37536 val_roc= 0.69759 val_ap= 0.63899 time= 35.62560
+Epoch: 0191 Number of Sub Epochs: 0277 train_loss= 600399.24372 train_acc= 0.37825 val_roc= 0.65471 val_ap= 0.59988 time= 35.43122
+Epoch: 0192 Number of Sub Epochs: 0278 train_loss= 804848.80229 train_acc= 0.37519 val_roc= 0.63717 val_ap= 0.58506 time= 34.49922
+Epoch: 0193 Number of Sub Epochs: 0271 train_loss= 2006134.90894 train_acc= 0.36841 val_roc= 0.69186 val_ap= 0.64126 time= 32.50003
+Epoch: 0194 Number of Sub Epochs: 0265 train_loss= 1157427.17424 train_acc= 0.37222 val_roc= 0.68558 val_ap= 0.62689 time= 30.19091
+Epoch: 0195 Number of Sub Epochs: 0268 train_loss= 646644.85901 train_acc= 0.37984 val_roc= 0.68047 val_ap= 0.62295 time= 31.50027
+Epoch: 0196 Number of Sub Epochs: 0270 train_loss= 554554.07155 train_acc= 0.38028 val_roc= 0.66702 val_ap= 0.60933 time= 45.44835
+Epoch: 0197 Number of Sub Epochs: 0283 train_loss= 602859.83342 train_acc= 0.38068 val_roc= 0.66195 val_ap= 0.60437 time= 45.35162
+Epoch: 0198 Number of Sub Epochs: 0282 train_loss= 1973607.84998 train_acc= 0.36735 val_roc= 0.65211 val_ap= 0.59679 time= 48.27662
+Epoch: 0199 Number of Sub Epochs: 0269 train_loss= 1581423.80868 train_acc= 0.36962 val_roc= 0.67572 val_ap= 0.62041 time= 44.00856
+Epoch: 0200 Number of Sub Epochs: 0283 train_loss= 547220.79858 train_acc= 0.38202 val_roc= 0.64325 val_ap= 0.59127 time= 46.13370
+Epoch: 0201 Number of Sub Epochs: 0263 train_loss= 328276.20969 train_acc= 0.38367 val_roc= 0.68119 val_ap= 0.63386 time= 48.71003
+Epoch: 0202 Number of Sub Epochs: 0275 train_loss= 998471.21836 train_acc= 0.37404 val_roc= 0.64167 val_ap= 0.58755 time= 44.08150
+Epoch: 0203 Number of Sub Epochs: 0258 train_loss= 2087061.23562 train_acc= 0.37185 val_roc= 0.65330 val_ap= 0.59721 time= 47.84540
+Epoch: 0204 Number of Sub Epochs: 0270 train_loss= 959688.00435 train_acc= 0.36980 val_roc= 0.63965 val_ap= 0.58898 time= 54.86177
+Epoch: 0205 Number of Sub Epochs: 0269 train_loss= 992206.35652 train_acc= 0.36948 val_roc= 0.69167 val_ap= 0.64372 time= 41.97552
+Epoch: 0206 Number of Sub Epochs: 0272 train_loss= 326194.93917 train_acc= 0.37592 val_roc= 0.68044 val_ap= 0.63598 time= 48.37678
+Epoch: 0207 Number of Sub Epochs: 0271 train_loss= 523157.84947 train_acc= 0.37263 val_roc= 0.66364 val_ap= 0.60785 time= 41.74351
+Epoch: 0208 Number of Sub Epochs: 0266 train_loss= 1180283.07285 train_acc= 0.37336 val_roc= 0.64187 val_ap= 0.59294 time= 39.30650
+Epoch: 0209 Number of Sub Epochs: 0270 train_loss= 1894317.44179 train_acc= 0.36745 val_roc= 0.64371 val_ap= 0.59354 time= 41.16975
+Epoch: 0210 Number of Sub Epochs: 0270 train_loss= 883042.17626 train_acc= 0.37131 val_roc= 0.69061 val_ap= 0.63339 time= 42.37460
+Epoch: 0211 Number of Sub Epochs: 0274 train_loss= 307775.62589 train_acc= 0.37333 val_roc= 0.64977 val_ap= 0.59549 time= 42.59950
+Epoch: 0212 Number of Sub Epochs: 0268 train_loss= 521767.83872 train_acc= 0.38003 val_roc= 0.69250 val_ap= 0.63730 time= 63.95865
+Epoch: 0213 Number of Sub Epochs: 0278 train_loss= 470212.74534 train_acc= 0.37085 val_roc= 0.63896 val_ap= 0.58598 time= 45.95247
+Epoch: 0214 Number of Sub Epochs: 0270 train_loss= 1535696.50821 train_acc= 0.36959 val_roc= 0.65175 val_ap= 0.60541 time= 59.88672
+Epoch: 0215 Number of Sub Epochs: 0282 train_loss= 1162902.93663 train_acc= 0.37166 val_roc= 0.65056 val_ap= 0.59632 time= 52.42096
+Epoch: 0216 Number of Sub Epochs: 0276 train_loss= 1203205.36505 train_acc= 0.37696 val_roc= 0.67543 val_ap= 0.61984 time= 55.65719
+Epoch: 0217 Number of Sub Epochs: 0267 train_loss= 1384849.17540 train_acc= 0.36831 val_roc= 0.64330 val_ap= 0.58963 time= 55.05012
+Epoch: 0218 Number of Sub Epochs: 0268 train_loss= 1652147.66510 train_acc= 0.37111 val_roc= 0.67445 val_ap= 0.61790 time= 48.48741
+Epoch: 0219 Number of Sub Epochs: 0280 train_loss= 736197.14351 train_acc= 0.37437 val_roc= 0.68058 val_ap= 0.62925 time= 49.35766
+Epoch: 0220 Number of Sub Epochs: 0279 train_loss= 1215931.93454 train_acc= 0.37621 val_roc= 0.69869 val_ap= 0.64163 time= 60.80358
+Epoch: 0221 Number of Sub Epochs: 0282 train_loss= 1166920.95617 train_acc= 0.37150 val_roc= 0.68862 val_ap= 0.63121 time= 59.50932
+Epoch: 0222 Number of Sub Epochs: 0271 train_loss= 196394.37279 train_acc= 0.38986 val_roc= 0.69690 val_ap= 0.64684 time= 55.35755
+Epoch: 0223 Number of Sub Epochs: 0279 train_loss= 346238.36639 train_acc= 0.38645 val_roc= 0.70167 val_ap= 0.64492 time= 51.43871
+Epoch: 0224 Number of Sub Epochs: 0279 train_loss= 1485726.07798 train_acc= 0.37549 val_roc= 0.65905 val_ap= 0.60154 time= 38.93882
+Epoch: 0225 Number of Sub Epochs: 0271 train_loss= 3808906.25470 train_acc= 0.36116 val_roc= 0.65029 val_ap= 0.59503 time= 34.85479
+Epoch: 0226 Number of Sub Epochs: 0281 train_loss= 2863549.06926 train_acc= 0.37151 val_roc= 0.64990 val_ap= 0.59463 time= 35.99478
+Epoch: 0227 Number of Sub Epochs: 0286 train_loss= 161340.68918 train_acc= 0.38608 val_roc= 0.72862 val_ap= 0.67532 time= 38.12887
+Epoch: 0228 Number of Sub Epochs: 0271 train_loss= 18698.24264 train_acc= 0.41298 val_roc= 0.70600 val_ap= 0.65584 time= 36.35064
+Epoch: 0229 Number of Sub Epochs: 0291 train_loss= 116301.34098 train_acc= 0.39580 val_roc= 0.71816 val_ap= 0.67194 time= 39.16114
+Epoch: 0230 Number of Sub Epochs: 0279 train_loss= 1279946.54486 train_acc= 0.36977 val_roc= 0.65901 val_ap= 0.60206 time= 37.82678
+Epoch: 0231 Number of Sub Epochs: 0268 train_loss= 892338.75583 train_acc= 0.36705 val_roc= 0.67083 val_ap= 0.62211 time= 36.32575
+Epoch: 0232 Number of Sub Epochs: 0271 train_loss= 497071.81844 train_acc= 0.37627 val_roc= 0.67740 val_ap= 0.62085 time= 37.31617
+Epoch: 0233 Number of Sub Epochs: 0274 train_loss= 1717092.00128 train_acc= 0.36359 val_roc= 0.63708 val_ap= 0.58463 time= 37.74078
+Epoch: 0234 Number of Sub Epochs: 0277 train_loss= 1600839.91340 train_acc= 0.35941 val_roc= 0.64256 val_ap= 0.58848 time= 38.54175
+Epoch: 0235 Number of Sub Epochs: 0279 train_loss= 464398.13302 train_acc= 0.37652 val_roc= 0.66535 val_ap= 0.60754 time= 38.98355
+Epoch: 0236 Number of Sub Epochs: 0283 train_loss= 1236386.77775 train_acc= 0.37422 val_roc= 0.67770 val_ap= 0.61999 time= 40.39414
+Epoch: 0237 Number of Sub Epochs: 0266 train_loss= 1472676.49257 train_acc= 0.37081 val_roc= 0.66382 val_ap= 0.60790 time= 38.31126
+Epoch: 0238 Number of Sub Epochs: 0266 train_loss= 1118265.34688 train_acc= 0.37219 val_roc= 0.64716 val_ap= 0.60378 time= 38.42143
+Epoch: 0239 Number of Sub Epochs: 0285 train_loss= 394248.20878 train_acc= 0.37166 val_roc= 0.67947 val_ap= 0.62225 time= 41.60872
+Epoch: 0240 Number of Sub Epochs: 0283 train_loss= 194625.12906 train_acc= 0.39050 val_roc= 0.65738 val_ap= 0.60126 time= 42.27332
+Epoch: 0241 Number of Sub Epochs: 0293 train_loss= 663314.88106 train_acc= 0.37497 val_roc= 0.68068 val_ap= 0.62195 time= 43.60702
+Epoch: 0242 Number of Sub Epochs: 0270 train_loss= 2891188.41971 train_acc= 0.36354 val_roc= 0.62791 val_ap= 0.57913 time= 40.10954
+Epoch: 0243 Number of Sub Epochs: 0266 train_loss= 1502838.59121 train_acc= 0.36811 val_roc= 0.68282 val_ap= 0.62062 time= 40.32973
+Epoch: 0244 Number of Sub Epochs: 0279 train_loss= 326498.11917 train_acc= 0.38407 val_roc= 0.72027 val_ap= 0.67737 time= 42.52619
+Epoch: 0245 Number of Sub Epochs: 0279 train_loss= 135177.95205 train_acc= 0.38418 val_roc= 0.69221 val_ap= 0.63332 time= 42.76490
+Epoch: 0246 Number of Sub Epochs: 0280 train_loss= 496432.02714 train_acc= 0.37683 val_roc= 0.66015 val_ap= 0.60704 time= 43.57704
+Epoch: 0247 Number of Sub Epochs: 0284 train_loss= 1642482.01831 train_acc= 0.36286 val_roc= 0.67783 val_ap= 0.62104 time= 43.83276
+Epoch: 0248 Number of Sub Epochs: 0272 train_loss= 947195.48089 train_acc= 0.36779 val_roc= 0.65314 val_ap= 0.59898 time= 43.17666
+Epoch: 0249 Number of Sub Epochs: 0268 train_loss= 1339949.33776 train_acc= 0.36746 val_roc= 0.66798 val_ap= 0.61209 time= 41.66353
+Epoch: 0250 Number of Sub Epochs: 0275 train_loss= 615031.11802 train_acc= 0.37579 val_roc= 0.69525 val_ap= 0.63757 time= 43.62624
+Epoch: 0251 Number of Sub Epochs: 0284 train_loss= 422396.35831 train_acc= 0.37416 val_roc= 0.70633 val_ap= 0.64889 time= 45.39806
+Epoch: 0252 Number of Sub Epochs: 0275 train_loss= 1933410.43551 train_acc= 0.36449 val_roc= 0.63782 val_ap= 0.58513 time= 43.43759
+Epoch: 0253 Number of Sub Epochs: 0272 train_loss= 2312777.23632 train_acc= 0.36746 val_roc= 0.63838 val_ap= 0.58477 time= 42.94997
+Epoch: 0254 Number of Sub Epochs: 0262 train_loss= 1082632.37154 train_acc= 0.37671 val_roc= 0.66203 val_ap= 0.60556 time= 42.25035
+Epoch: 0255 Number of Sub Epochs: 0278 train_loss= 454178.13529 train_acc= 0.37964 val_roc= 0.65836 val_ap= 0.60243 time= 44.50363
+Epoch: 0256 Number of Sub Epochs: 0279 train_loss= 864695.75718 train_acc= 0.37310 val_roc= 0.64964 val_ap= 0.59696 time= 44.94474
+Epoch: 0257 Number of Sub Epochs: 0272 train_loss= 794832.99194 train_acc= 0.36774 val_roc= 0.66083 val_ap= 0.60424 time= 43.75008
+Epoch: 0258 Number of Sub Epochs: 0284 train_loss= 947383.63078 train_acc= 0.37558 val_roc= 0.67554 val_ap= 0.61979 time= 45.34587
+Epoch: 0259 Number of Sub Epochs: 0276 train_loss= 1043105.45674 train_acc= 0.37398 val_roc= 0.66109 val_ap= 0.60577 time= 44.98828
+Epoch: 0260 Number of Sub Epochs: 0274 train_loss= 536721.92554 train_acc= 0.37238 val_roc= 0.68941 val_ap= 0.63197 time= 44.57898
+Epoch: 0261 Number of Sub Epochs: 0276 train_loss= 697687.32272 train_acc= 0.38084 val_roc= 0.63621 val_ap= 0.58591 time= 44.76120
+Epoch: 0262 Number of Sub Epochs: 0284 train_loss= 2554716.07883 train_acc= 0.36749 val_roc= 0.63968 val_ap= 0.58571 time= 46.37580
+Epoch: 0263 Number of Sub Epochs: 0272 train_loss= 2637705.57871 train_acc= 0.37730 val_roc= 0.68578 val_ap= 0.63048 time= 43.90725
+Epoch: 0264 Number of Sub Epochs: 0269 train_loss= 417088.26374 train_acc= 0.38498 val_roc= 0.69647 val_ap= 0.64396 time= 43.48924
+Epoch: 0265 Number of Sub Epochs: 0271 train_loss= 73228.96341 train_acc= 0.39297 val_roc= 0.68931 val_ap= 0.63143 time= 44.44684
+Epoch: 0266 Number of Sub Epochs: 0279 train_loss= 69363.17954 train_acc= 0.39256 val_roc= 0.67041 val_ap= 0.61502 time= 45.12085
+Epoch: 0267 Number of Sub Epochs: 0281 train_loss= 435887.15347 train_acc= 0.38070 val_roc= 0.63902 val_ap= 0.58683 time= 45.49190
+Epoch: 0268 Number of Sub Epochs: 0271 train_loss= 1587008.89869 train_acc= 0.37195 val_roc= 0.65109 val_ap= 0.59557 time= 43.99586
+Epoch: 0269 Number of Sub Epochs: 0285 train_loss= 3737743.75718 train_acc= 0.36432 val_roc= 0.64372 val_ap= 0.58972 time= 45.87562
+Epoch: 0270 Number of Sub Epochs: 0280 train_loss= 464823.75965 train_acc= 0.38302 val_roc= 0.68425 val_ap= 0.62983 time= 45.29976
+Epoch: 0271 Number of Sub Epochs: 0281 train_loss= 105583.88600 train_acc= 0.39057 val_roc= 0.67432 val_ap= 0.61553 time= 45.85400
+Epoch: 0272 Number of Sub Epochs: 0282 train_loss= 144743.05828 train_acc= 0.38841 val_roc= 0.71792 val_ap= 0.66740 time= 46.27090
+Epoch: 0273 Number of Sub Epochs: 0274 train_loss= 1336462.65554 train_acc= 0.36989 val_roc= 0.64103 val_ap= 0.58883 time= 43.83143
+Epoch: 0274 Number of Sub Epochs: 0270 train_loss= 2212832.01616 train_acc= 0.36541 val_roc= 0.67240 val_ap= 0.61968 time= 43.78967
+Epoch: 0275 Number of Sub Epochs: 0274 train_loss= 959450.58775 train_acc= 0.37186 val_roc= 0.69931 val_ap= 0.64071 time= 44.32059
+Epoch: 0276 Number of Sub Epochs: 0275 train_loss= 391407.76404 train_acc= 0.37971 val_roc= 0.67249 val_ap= 0.61584 time= 44.89559
+Epoch: 0277 Number of Sub Epochs: 0287 train_loss= 698816.39813 train_acc= 0.38214 val_roc= 0.64955 val_ap= 0.59419 time= 46.19538
+Epoch: 0278 Number of Sub Epochs: 0270 train_loss= 2148119.10933 train_acc= 0.36974 val_roc= 0.66559 val_ap= 0.60775 time= 43.45954
+Epoch: 0279 Number of Sub Epochs: 0277 train_loss= 217116.36371 train_acc= 0.38306 val_roc= 0.67003 val_ap= 0.61726 time= 43.17585
+Epoch: 0280 Number of Sub Epochs: 0273 train_loss= 577464.44259 train_acc= 0.36740 val_roc= 0.65004 val_ap= 0.59463 time= 42.65365
+Epoch: 0281 Number of Sub Epochs: 0263 train_loss= 1169480.15860 train_acc= 0.37184 val_roc= 0.66280 val_ap= 0.60520 time= 41.44145
+Epoch: 0282 Number of Sub Epochs: 0278 train_loss= 590044.36297 train_acc= 0.37026 val_roc= 0.66719 val_ap= 0.61174 time= 42.95590
+Epoch: 0283 Number of Sub Epochs: 0275 train_loss= 973329.36680 train_acc= 0.36655 val_roc= 0.64420 val_ap= 0.59043 time= 42.89406
+Epoch: 0284 Number of Sub Epochs: 0288 train_loss= 814084.75155 train_acc= 0.36781 val_roc= 0.67239 val_ap= 0.61457 time= 45.02507
+Epoch: 0285 Number of Sub Epochs: 0274 train_loss= 2500302.46494 train_acc= 0.36423 val_roc= 0.64232 val_ap= 0.59587 time= 42.26359
+Epoch: 0286 Number of Sub Epochs: 0270 train_loss= 1176491.81799 train_acc= 0.37277 val_roc= 0.67900 val_ap= 0.61922 time= 42.29432
+Epoch: 0287 Number of Sub Epochs: 0271 train_loss= 183396.26049 train_acc= 0.38476 val_roc= 0.68104 val_ap= 0.62807 time= 42.49564
+Epoch: 0288 Number of Sub Epochs: 0277 train_loss= 368970.79824 train_acc= 0.38034 val_roc= 0.67316 val_ap= 0.61688 time= 43.15267
+Epoch: 0289 Number of Sub Epochs: 0278 train_loss= 700210.65479 train_acc= 0.37422 val_roc= 0.69168 val_ap= 0.63930 time= 43.40552
+Epoch: 0290 Number of Sub Epochs: 0269 train_loss= 357916.95667 train_acc= 0.37643 val_roc= 0.68795 val_ap= 0.63022 time= 42.07434
+Epoch: 0291 Number of Sub Epochs: 0267 train_loss= 1762363.81902 train_acc= 0.36898 val_roc= 0.64200 val_ap= 0.58742 time= 41.03649
+Epoch: 0292 Number of Sub Epochs: 0275 train_loss= 2350808.19446 train_acc= 0.36402 val_roc= 0.66827 val_ap= 0.61052 time= 42.53141
+Epoch: 0293 Number of Sub Epochs: 0279 train_loss= 927498.47474 train_acc= 0.37703 val_roc= 0.67980 val_ap= 0.62619 time= 43.82405
+Epoch: 0294 Number of Sub Epochs: 0268 train_loss= 222011.66135 train_acc= 0.38841 val_roc= 0.67122 val_ap= 0.61375 time= 41.61942
+Epoch: 0295 Number of Sub Epochs: 0271 train_loss= 363759.52228 train_acc= 0.37907 val_roc= 0.72923 val_ap= 0.67318 time= 42.25665
+Epoch: 0296 Number of Sub Epochs: 0282 train_loss= 2783473.85466 train_acc= 0.36963 val_roc= 0.68284 val_ap= 0.63053 time= 43.17380
+Epoch: 0297 Number of Sub Epochs: 0276 train_loss= 1748343.60520 train_acc= 0.38170 val_roc= 0.64441 val_ap= 0.58968 time= 42.75134
+Epoch: 0298 Number of Sub Epochs: 0276 train_loss= 780910.08845 train_acc= 0.38034 val_roc= 0.66861 val_ap= 0.62506 time= 42.56237
+Epoch: 0299 Number of Sub Epochs: 0270 train_loss= 244709.39038 train_acc= 0.38323 val_roc= 0.68625 val_ap= 0.62814 time= 41.94851
+Epoch: 0300 Number of Sub Epochs: 0268 train_loss= 767832.45301 train_acc= 0.37305 val_roc= 0.72081 val_ap= 0.65658 time= 40.93044
+Test ROC score: 0.6562830607096354
+Test AP score: 0.6019277982415752

@@ -1,0 +1,25 @@
+       videoid           uploader  ...  category_UNA  row_number
+0  gFa1YMEJFag            sxephil  ...             0           0
+1  pSJ4hv28zaI  thecomputernerd01  ...             0           1
+2  uHVEDq6RVXc    barelypolitical  ...             0           2
+3  K7Om0QZy-38          SouljaBoy  ...             0           3
+4  DCAO6bZa31o    AssociatedPress  ...             0           4
+
+[5 rows x 45 columns]
+Index(['videoid', 'uploader', 'age', 'length', 'views', 'rate', 'rating',
+       'comments', 'related1', 'related2', 'related3', 'related4', 'related5',
+       'related6', 'related7', 'related8', 'related9', 'related10',
+       'related11', 'related12', 'related13', 'related14', 'related15',
+       'related16', 'related17', 'related18', 'related19', 'related20',
+       'category', 'category_Autos&Vehicles', 'category_Comedy',
+       'category_Education', 'category_Entertainment',
+       'category_Film&Animation', 'category_Howto&Style', 'category_Music',
+       'category_News&Politics', 'category_Nonprofits&Activism',
+       'category_People&Blogs', 'category_Pets&Animals',
+       'category_Science&Technology', 'category_Sports',
+       'category_Travel&Events', 'category_UNA', 'row_number'],
+      dtype='object')
+{'Entertainment': 18579, 'Comedy': 6997, 'News&Politics': 5133, 'Music': 14921, 'Science&Technology': 1491, 'Nonprofits&Activism': 336, 'People&Blogs': 5899, 'Howto&Style': 3309, 'Sports': 4610, 'Autos&Vehicles': 1372, 'Film&Animation': 4945, 'UNA': 656, 'Education': 627, 'Pets&Animals': 1121, 'Travel&Events': 1112}
+{'Entertainment': 139160, 'Comedy': 54433, 'News&Politics': 21559, 'Music': 73671, 'Science&Technology': 14422, 'Nonprofits&Activism': 4133, 'People&Blogs': 55984, 'Howto&Style': 29260, 'Sports': 28622, 'Autos&Vehicles': 9806, 'Film&Animation': 40083, 'UNA': 13120, 'Education': 7519, 'Pets&Animals': 8651, 'Travel&Events': 12789}
+Saved stuff
+Press q to quit
