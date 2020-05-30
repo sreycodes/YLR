@@ -11,7 +11,7 @@ We couldn't run our experiments on the whole graph due to its large size therefo
 
 The following experiments use an approach inspired by [SEAL](https://arxiv.org/pdf/1802.09691.pdf). My main takeaway from this paper was that link prediction and graph embeddings are heavily dependent on their immediate neighbours or second-degree neighbours at max. Therefore we choose random edges and add their 1-hop sub-graphs incrementally while training the model. This gives us a substantial increase in the ROC score and AP score.  
 
-- top-1000-views-negative.out - Added false training edges
+- top-1000-views-negative.out - Added false training edges as -1 in the adjacency matrix
 - top-1000-views-D-best.out - Multiplied adjacency matrix by degree matrix as explained in <https://arxiv.org/pdf/1609.02907.pdf>
 - top-1000-views-wd.out - Make the adjacency matrix weighted and directed and used a Gravity inspired Decoder based on <https://arxiv.org/pdf/1905.09570.pdf>
 
